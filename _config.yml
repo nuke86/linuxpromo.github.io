@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A responsive sidebar Jekyll theme using the Pure.css framework, 
   designed for writers and bloggers of all kinds.
 baseurl: "/linuxpromo.github.io" # the subpath of your site, e.g. /blog
-url: "https://nuke86.github.io/linuxpromo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nuke86.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: brennanbrown/purelog
 twitter: brennankbrown
 github: brennanbrown
@@ -62,20 +62,20 @@ permalink: /:title
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "/linuxpromo.github.io" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
       author: Brennan K. Brown
       avatar: assets/profile-sm.png
   - scope:
-      path: ""
+      path: "/linuxpromo.github.io"
       type: notes
     values:
       layout: post
       content-type: notes
   - scope:
-      path: ""
+      path: "/linuxpromo.github.io"
       type: journals
     values:
       layout: journal-entry
