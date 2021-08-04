@@ -1,38 +1,15 @@
-<hr/>
-
-<footer class="footer">
-    <div class="pure-menu pure-menu-horizontal">
-        <ul>
-            <li class="pure-menu-item">
-                <a class="pure-menu-link" href="/">
-                    <i class="fas fa-home"></i>
-                    <span class="md-display">Home</span>
-                </a>
-            </li>
-            <li class="pure-menu-item">
-                <a class="pure-menu-link" href="https://twitter.com/{{site.twitter}}">
-                    <i class="fab fa-twitter"></i>
-                    <span class="md-display">Twitter</span>
-                </a>
-            </li>
-            <li class="pure-menu-item">
-                <a class="pure-menu-link" href="https://github.com/{{site.github}}">
-                    <i class="fab fa-github"></i>
-                    <span class="md-display">GitHub</span>
-                </a>
-            </li>
-            <li class="pure-menu-item">
-                <a class="pure-menu-link" href="mailto:{{site.email}}">
-                    <i class="fas fa-paper-plane"></i>
-                    <span class="md-display">E-mail</span>
-                </a>
-            </li>
-            <li class="pure-menu-item">
-                <a class="pure-menu-link" href="https://github.com/{{site.repository}}">
-                    <i class="fas fa-code"></i>
-                    <span class="md-display">Source Code</span>
-                </a>
-            </li>
-        </ul>
-    </div>
+<footer>
+	<div class="wrapper">
+		<p class="edit-footer"><a class="editor-link btn" href="cloudcannon:collections/_data/footer.yml" class="btn" style="padding: 5px;"><strong>&#9998;</strong> Edit footer</a></p>
+		<ul class="footer-links">
+			{% for link in site.data.footer %}
+				<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+					{% if link.social_icon %}
+						{% include social-icon.html icon=link.social_icon %}
+					{% endif %}
+					{{ link.name }}</a></li>
+			{% endfor %}
+		</ul>
+		<p class="copyright">&copy; {{ site.title }} {{ site.time | date: "%Y" }}. All rights reserved.</p>
+	</div>
 </footer>
