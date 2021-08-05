@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: "https://nuke86.github.io/linuxpromo.github.io" #Your url here
-baseurl: linuxpromo.github.io
+baseurl: "linuxpromo.github.io/"
 
 # variables
 name: Your Site Name
