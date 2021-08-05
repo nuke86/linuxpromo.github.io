@@ -46,7 +46,7 @@
 				{% if page.title == 'me' or page.title == '404...' %}
 					<ul>
 						{% for post in site.posts %}
-						<li><a href="/linuxpromo.github.io/{{  post.url }}" title="{{ post.title }}"><img src="/linuxpromo.github.io/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+						<li><a href="/linuxpromo.github.io{{  post.url }}" title="{{ post.title }}"><img src="/linuxpromo.github.io/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 						{% endfor %}
 					</ul>
 				{% else %}
@@ -55,7 +55,7 @@
 			{% else %}
 				<ul>
 					{% for post in site.posts %}
-					<li><a href="/linuxpromo.github.io/{{  post.url }}" title="{{ post.title }}"><img src="/linuxpromo.github.io/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+					<li><a href="/linuxpromo.github.io{{  post.url }}" title="{{ post.title }}"><img src="/linuxpromo.github.io/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 			{% endunless %}
