@@ -4,11 +4,10 @@ title: "Scarica file di Google Drive di grandi dimensioni con Wget nel terminale
 tags: linux-generic
 ---
 
-# Scarica file di Google Drive di grandi dimensioni con Wget nel terminale
+## Scarica file di Google Drive di grandi dimensioni con Wget nel terminale
 
-## Questo comando ti consentirà di scaricare file da Google Drive utilizzando solo il tuo terminale Linux.
+### Questo comando ti consentirà di scaricare file da Google Drive utilizzando solo il tuo terminale Linux.
 
-***
 
 Recentemente ho lavorato con Google Cloud Platform e ho utilizzato le macchine virtuali per lavorare su un progetto di data science. Mi sono imbattuto in un set di dati che devo scaricare da Google Drive nella mia macchina virtuale. Google non ti fornisce un link per il download diretto. Mi sono imbattuto in questo comando intelligente che mi ha permesso di scaricare il file dal mio terminale e voglio condividerlo con tutti voi.
 
