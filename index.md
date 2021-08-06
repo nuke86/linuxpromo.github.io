@@ -1,6 +1,6 @@
 ---
 layout: default
-title: index
+title: Linux.promo
 ---
 
 ## Costruito per gli appassionati di Linux!
