@@ -1,7 +1,10 @@
 ---
-layout: default
-title: "Scarica file di Google Drive di grandi dimensioni con Wget nel terminale"
-tags: linux-generic
+date: 2021-08-06
+title: Scarica file di Google Drive di grandi dimensioni con Wget nel terminale
+categories:
+  - linux-generic
+description: Keep your account secure
+type: Document
 ---
 
 ## Scarica file di Google Drive di grandi dimensioni con Wget nel terminale
