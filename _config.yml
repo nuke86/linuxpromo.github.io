@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: "Linux.promo"
+title: Linux.promo
 url: "http://linux.promo/"
 baseurl:
 google_analytics_key:
@@ -10,11 +10,11 @@ newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: "Il mondo Linux italiano, fatto di Guide, articoli, suggerimenti e trucchi utili a vivere con il Pinguino"
-author: "Nuke"
+description: Il mondo Linux italiano, fatto di Guide, articoli, suggerimenti e trucchi utili a vivere con il Pinguino
+author: 
   name:
-  email: "info@spcnet.it"
-  twitter: "nuke86" # twitter username without the @ symbol
+  email: 
+  twitter: # twitter username without the @ symbol
 social:
   name: Base Template
   links:
