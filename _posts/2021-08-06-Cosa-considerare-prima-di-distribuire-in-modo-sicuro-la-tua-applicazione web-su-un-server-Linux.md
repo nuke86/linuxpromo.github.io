@@ -1,10 +1,10 @@
 ---
-layout: default
-title: "Cosa considerare prima di distribuire in modo sicuro la tua applicazione web su un server Linux?"
-tags: linux-generic sicurezza
+date: 2021-08-06
+title: Cosa considerare prima di distribuire in modo sicuro la tua applicazione web su un server Linux?
+categories: sicurezza
+description: Scopri cosa dovresti considerare sul tuo server Linux prima di distribuire la tua applicazione web su un provider di servizi cloud per mantenere la tua applicazione e i tuoi dati al sicuro
+type: Document
 ---
-
-## Cosa considerare prima di distribuire in modo sicuro la tua applicazione web su un server Linux?
 
 
 **Scopri cosa dovresti considerare sul tuo server Linux prima di distribuire la tua applicazione web su un provider di servizi cloud per mantenere la tua applicazione e i tuoi dati al sicuro**

@@ -1,10 +1,11 @@
 ---
-layout: default
-title: "Docker Container Networking - Esposizione delle porte"
-tags: programmazione
----
 
-## Docker Container Networking - Esposizione delle porte
+date: 2021-08-06
+title: Docker Container Networking - Esposizione delle porte
+categories: programmazione
+description: Networking con host, container docker multipli, porte espositive, comunicazione TCP/UDP
+type: Document
+---
 
 
 **Networking con host, container docker multipli, porte espositive, comunicazione TCP/UDP**

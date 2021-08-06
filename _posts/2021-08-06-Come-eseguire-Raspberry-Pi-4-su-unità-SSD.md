@@ -1,10 +1,10 @@
 ---
-layout: default
-title: "Come eseguire Raspberry Pi 4 su unità SSD?"
-tags: linux-generic
+date: 2021-08-06
+title: Come eseguire Raspberry Pi 4 su unità SSD?
+categories: linux-generic
+description: Avvio Raspberry Pi dall'unità SSD
+type: Document
 ---
-
-## Come eseguire Raspberry Pi 4 su unità SSD?
 
 
 **Avvio Raspberry Pi dall'unità SSD**

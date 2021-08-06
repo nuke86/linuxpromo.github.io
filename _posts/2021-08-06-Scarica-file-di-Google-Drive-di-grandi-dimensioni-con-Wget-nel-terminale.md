@@ -3,12 +3,9 @@ date: 2021-08-06
 title: Scarica file di Google Drive di grandi dimensioni con Wget nel terminale
 categories:
   - linux-generic
-description: Keep your account secure
+description: Questo comando ti consentirà di scaricare file da Google Drive utilizzando solo il tuo terminale Linux.
 type: Document
 ---
-
-## Scarica file di Google Drive di grandi dimensioni con Wget nel terminale
-
 
 **Questo comando ti consentirà di scaricare file da Google Drive utilizzando solo il tuo terminale Linux.**
 

@@ -1,10 +1,11 @@
 ---
-layout: default
-title: "Come sincronizzare file e cartelle su Linux?"
-tags: linux-generic
----
 
-## Come sincronizzare file e cartelle su Linux?
+date: 2021-08-06
+title: Come sincronizzare file e cartelle su Linux?
+categories: linux-generic
+description: Linux sincronizza due directory usando rsync e inotify
+type: Document
+---
 
 
 **Linux sincronizza due directory usando rsync e inotify**
