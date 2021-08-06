@@ -23,6 +23,6 @@ Scarica balenaEtcher per masterizzare l'immagine ISO sia sulla scheda SD che sul
 
 Utilizzare il seguente comando per trovare il PARTUUID dell'unità SSD  
 
-`
+```
 sudo lsblk -o PARTUUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
-`
+```
